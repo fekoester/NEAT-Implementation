@@ -1,2 +1,2 @@
 # Neural-Network
-Personal try of a neural evolution on augmented topology
+Personal try of a NeuronEvolution of Augmenting Topologies.
