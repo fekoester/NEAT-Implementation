@@ -1,0 +1,17 @@
+neat-genome 1
+fitness 100000
+node 0 input identity
+node 1 input identity
+node 2 input identity
+node 3 input identity
+node 4 input identity
+node 5 input identity
+node 6 bias identity
+node 7 output sigmoid
+conn 0 0 7 -1.3040413558755564 1
+conn 1 1 7 -0.31910036364746519 1
+conn 2 2 7 -3.0323559536349332 1
+conn 3 3 7 -1.7418696246299707 1
+conn 4 4 7 1.9505594173946039 1
+conn 5 5 7 0.41065040001481945 1
+conn 6 6 7 -0.15450241584350063 1
