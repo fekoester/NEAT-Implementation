@@ -1,0 +1,39 @@
+digraph neat {
+  rankdir=LR;
+  splines=true;
+  node [shape=circle, style=filled, fontname=Helvetica, fontsize=10];
+  labelloc=t; label="xor champion (fitness 14.96)";
+  { rank=source; n0; n1; n2; }
+  { rank=sink; n3; }
+  n0 [label="0", fillcolor="#9ecae1"];
+  n1 [label="1", fillcolor="#9ecae1"];
+  n2 [label="bias", fillcolor="#d9d9d9"];
+  n3 [label="3", fillcolor="#fdae6b"];
+  n10 [label="10", fillcolor="#a1d99b"];
+  n16 [label="16", fillcolor="#a1d99b"];
+  n25 [label="25", fillcolor="#a1d99b"];
+  n32 [label="32", fillcolor="#a1d99b"];
+  n39 [label="39", fillcolor="#a1d99b"];
+  n162 [label="162", fillcolor="#a1d99b"];
+  n0 -> n3 [color="#de2d26", penwidth=2.33753];
+  n1 -> n3 [color="#de2d26", penwidth=2.13839];
+  n2 -> n3 [color="#2b8cbe", penwidth=0.503847];
+  n0 -> n10 [color="#2b8cbe", penwidth=0.756795];
+  n10 -> n3 [color="#2b8cbe", penwidth=1.22504];
+  n1 -> n10 [color="#de2d26", penwidth=1.17255];
+  n10 -> n16 [color="#2b8cbe", penwidth=4.5];
+  n16 -> n3 [color="#de2d26", penwidth=4.5];
+  n0 -> n16 [color="#de2d26", penwidth=4.5];
+  n1 -> n16 [color="#de2d26", penwidth=2.10153];
+  n2 -> n25 [color="#2b8cbe", penwidth=0.881562];
+  n25 -> n3 [color="#de2d26", penwidth=2.74946];
+  n2 -> n32 [color="#2b8cbe", penwidth=1.28915];
+  n32 -> n25 [color="#de2d26", penwidth=3.12318];
+  n32 -> n3 [color="#de2d26", penwidth=0.948835, style=dashed, color="#bdbdbd"];
+  n10 -> n39 [color="#2b8cbe", penwidth=0.975741];
+  n39 -> n3 [color="#2b8cbe", penwidth=1.00184];
+  n0 -> n39 [color="#2b8cbe", penwidth=4.5];
+  n2 -> n39 [color="#2b8cbe", penwidth=1.72648];
+  n32 -> n162 [color="#2b8cbe", penwidth=1.10158];
+  n162 -> n3 [color="#2b8cbe", penwidth=2.12829];
+}

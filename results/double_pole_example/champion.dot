@@ -1,0 +1,23 @@
+digraph neat {
+  rankdir=LR;
+  splines=true;
+  node [shape=circle, style=filled, fontname=Helvetica, fontsize=10];
+  labelloc=t; label="double_pole champion (fitness 1e+05)";
+  { rank=source; n0; n1; n2; n3; n4; n5; n6; }
+  { rank=sink; n7; }
+  n0 [label="0", fillcolor="#9ecae1"];
+  n1 [label="1", fillcolor="#9ecae1"];
+  n2 [label="2", fillcolor="#9ecae1"];
+  n3 [label="3", fillcolor="#9ecae1"];
+  n4 [label="4", fillcolor="#9ecae1"];
+  n5 [label="5", fillcolor="#9ecae1"];
+  n6 [label="bias", fillcolor="#d9d9d9"];
+  n7 [label="7", fillcolor="#fdae6b"];
+  n0 -> n7 [color="#de2d26", penwidth=1.80404];
+  n1 -> n7 [color="#de2d26", penwidth=0.8191];
+  n2 -> n7 [color="#de2d26", penwidth=3.53236];
+  n3 -> n7 [color="#de2d26", penwidth=2.24187];
+  n4 -> n7 [color="#2b8cbe", penwidth=2.45056];
+  n5 -> n7 [color="#2b8cbe", penwidth=0.91065];
+  n6 -> n7 [color="#de2d26", penwidth=0.654502];
+}
